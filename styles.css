@@ -532,18 +532,6 @@ p {
   box-shadow: var(--shadow);
 }
 
-/*.contact-card::after {
-  content: "Let's build something polished";
-  position: absolute;
-  right: -20px;
-  bottom: -12px;
-  font-family: "DM Serif Display", serif;
-  font-size: clamp(3rem, 8vw, 8rem);
-  line-height: .9;
-  color: rgba(22,19,19,.045);
-  pointer-events: none;
-}*/
-
 .contact-card h2 {
   max-width: 850px;
   margin: 18px 0 22px;
@@ -995,7 +983,7 @@ p {
 .marquee-track span {
   font-family: "DM Serif Display", serif;
   font-size: clamp(1.8rem, 4vw, 3.6rem);
-  color: transparent;
+  color: Black;
   -webkit-text-stroke: 1px rgba(22, 19, 19, .28);
   white-space: nowrap;
 }
