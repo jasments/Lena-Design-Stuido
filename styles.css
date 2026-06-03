@@ -532,7 +532,7 @@ p {
   box-shadow: var(--shadow);
 }
 
-.contact-card::after {
+/*.contact-card::after {
   content: "Let's build something polished";
   position: absolute;
   right: -20px;
@@ -542,7 +542,7 @@ p {
   line-height: .9;
   color: rgba(22,19,19,.045);
   pointer-events: none;
-}
+}*/
 
 .contact-card h2 {
   max-width: 850px;
