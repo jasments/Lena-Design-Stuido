@@ -719,6 +719,14 @@ p {
   .contact-link {
     width: 100%;
   }
+   .btn,
+.contact-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
   .email-tiles {
     grid-template-columns: 1fr;
