@@ -1,8 +1,3 @@
-// =========================
-// Jasmin Brooks Portfolio
-// Interactive polish
-// =========================
-
 const revealItems = document.querySelectorAll(".reveal");
 
 const observer = new IntersectionObserver((entries) => {
