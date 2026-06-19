@@ -823,17 +823,4 @@ p {
   width: 100%;
   height: auto;
 }
-   @media (max-width: 768px) {
-  .wp-block-navigation a {
-    font-size: 12px;
-  }
-
-  .wp-block-navigation__container {
-    gap: 10px;
-  }
-
-  .wp-block-site-logo img {
-    width: 36px;
-    height: 36px;
-  }
 }
