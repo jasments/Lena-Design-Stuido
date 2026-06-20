@@ -220,7 +220,7 @@ p {
 .portrait-card {
   position: relative;
   padding: 16px;
-  border-radius: 46% 46% 30px 30px;
+  border-radius: 55% 55% 30px 30px;
   background: rgba(255, 250, 243, .7);
   border: 1px solid rgba(22, 19, 19, .12);
   box-shadow: var(--shadow);}
@@ -234,7 +234,7 @@ p {
 .portrait-card img {
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 46% 46% 22px 22px;
+  border-radius: 55% 55% 22px 22px;
   filter: saturate(.92) contrast(1.02);
 }
 
