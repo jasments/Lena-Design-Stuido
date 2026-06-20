@@ -1010,4 +1010,33 @@ p {
     object-fit: contain;
     object-position: top center;
   }
+   @media (max-width: 768px) {
+
+  /* Website preview cards */
+  .project-card__image,
+  .project-card--wide .project-card__image {
+    height: 420px;
+    overflow: hidden;
+  }
+
+  .project-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  /* Email preview tiles */
+  .email-tile {
+    height: 520px;
+    overflow: hidden;
+  }
+
+  .email-tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+
 }
