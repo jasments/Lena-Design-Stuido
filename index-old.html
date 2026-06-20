@@ -4,14 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Lena Design Studio | Web & App Design Portfolio</title>
-  <meta name="description" content="Lena is a South Coast based web and app designer creating polished, strategic websites, portfolios, HTML emails and digital experiences." />
+  <title>Jasmin Brooks | Web & App Design Portfolio</title>
+  <meta name="description" content="Jasmin Brooks is a South Coast based web and app designer creating polished, strategic websites, portfolios, HTML emails and digital experiences." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
+
 </head>
 
 <body>
@@ -54,7 +55,7 @@
         <div class="hero__actions">
           <a class="btn btn--light magnetic" href="#work">View my work</a>
           <a class="btn btn--light magnetic" href="#contact">Let's talk</a>
-		  <a class="btn btn--light magnetic" href="https://lenadesignstudios.wordpress.com">WordPress</a>
+          <a class="btn btn--light magnetic" href="https://lenadesignstudios.wordpress.com">WordPress</a>
         </div>
       </div>
 
@@ -78,7 +79,7 @@
         <div class="about__copy reveal">
           <h2>Creative eye, practical code, and a strong sense of what makes a page sell.</h2>
           <p>
-            I'm a web designer based on the South Coast. I create websites that are visually engaging, easy to use and built with purpose. My focus is on thoughtful design, accessibility and clear user experiences.
+            I'm a self-taught web designer based on the South Coast. I create websites that are visually engaging, easy to use and built with purpose. My focus is on thoughtful design, accessibility and clear user experiences.
           </p>
 
           <div class="skill-cloud" aria-label="Skills">
@@ -203,19 +204,41 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact section" id="contact">
-      <div class="contact-card reveal">
-        <p class="eyebrow">Available for web projects</p>
-        <h2>Have a website idea that needs to feel more polished?</h2>
-        <p>
-          I can help shape the look, layout and front-end structure so the page feels more professional,
-          more engaging and easier to understand.
-        </p>
 
-        <a class="contact-link magnetic" href="mailto:lenadesignstudios@gmail.com">
-          Email Me
-        </a>
+        <!-- CONTACT -->
+<section class="contact section" id="contact">
+  <div class="contact-card reveal">
+    <p class="eyebrow">Available for web projects</p>
+
+    <h2>Have a website idea that needs to feel more polished?</h2>
+
+    <p>
+      I can help shape the look, layout and front-end structure so the page
+      feels more professional, more engaging and easier to understand.
+    </p>
+
+    <form action="https://formspree.io/f/xojoavyb" method="POST" class="contact-form">
+
+      <input
+        type="email"
+        name="email"
+        placeholder="Your email address"
+        required
+      >
+
+      <textarea
+        name="message"
+        placeholder="Tell me about your project..."
+        required
+      ></textarea>
+
+      <button type="submit" class="contact-btn">
+        Send Message
+      </button>
+
+    </form>
+  </div>
+</section>
       </div>
     </section>
 
@@ -229,7 +252,13 @@
       <img class="modal__img" id="modalImg" alt="Full email preview">
     </div>
   </div>
-
+<footer class="site-footer">
+  <p>© 2026 Lena Design Studio</p>
+  <a href="privacy.html">Privacy Policy</a>
+</footer>
   <script src="app.js"></script>
+
+
+
 </body>
 </html>
