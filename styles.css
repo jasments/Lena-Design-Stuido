@@ -759,7 +759,8 @@ p {
 
   .portrait-card img {
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
+    transform: scale(1.15);
   }
 }
 
